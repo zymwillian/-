@@ -1,0 +1,290 @@
+#box {
+    /* background-color: #f2f2f2; */
+background-color: white;
+}
+
+.main1 {
+    border-top: 1px solid #e5e5e5;
+}
+
+.main1 .content .shop {
+    width: 1000px;
+    height: 138px;
+    margin-left: 45px;
+}
+
+.main1 .content .shopsp {
+    width: 1000px;
+    margin-left: 45px;
+}
+
+.main1 .content .shop .log {
+    width: 128px;
+    height: 73px;
+}
+
+.main1 .content .shop .msg {
+    width: 450px;
+    height: 73px;
+}
+
+.main1 .content .shop .msg ul {
+    height: 43px;
+    margin-top: 30px;
+    background-color: white;
+    background-image: url(./img/cart_step_ff.png);
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+}
+
+.main1 .content .shop .msg ul li {
+    float: left;
+    width: 150px;
+    font-size: 12px;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    color: #666;
+}
+
+.main1 .content .shop .msg ul li:nth-child(1) {
+    color: white;
+}
+
+
+/* --------------------shopsp ------------ */
+
+.main1 .content .shopsp {
+    width: 1000px;
+    /* height: 100px; */
+    background-color: #ffffff;
+}
+
+.main1 .content .shopsp .my {
+    padding: 10px 0;
+    margin-left: 10px;
+    border-bottom:2px solid #eaeaea;
+}
+
+.main1 .content .shopsp .my span {
+    padding: 10px 0;
+    color: black;
+    font-size: 24px;
+    border-bottom: 2px solid red;
+}
+.main1 .content .shopsp .smenus{
+    padding: 15px;
+}
+.main1 .content .shopsp .smenus div{
+    float: left;
+    padding: 2px 0;
+}
+.main1 .content .shopsp .smenus .s1{
+    width: 87px;
+    margin-left: 20px;
+    text-align: left;
+
+}
+.s2{
+    text-align: center;
+    width: 280px;
+
+}
+.s3,.s4,.s5,.s6{
+    width: 113px;
+    text-align: center;
+    border-left: 1px solid #ddd;
+}
+.gw{
+    margin-left: 15px;
+    border:1px solid #ededed
+}
+.gw .gwc{
+    background-color: white;
+}
+.gw .gwc .ti{
+    padding: 20px;
+    font-size: 18px;
+    background-color: #fafafa;
+    color: #333;
+}
+.gwc .add{
+    padding: 20px;
+    color: red;
+    font-size: 14px;
+}
+.gwc .add a{
+    color: red;
+}
+.gwc .cout{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 10px;
+}
+.gwc .cout div {
+    float: left;
+}
+.gwc .cout .th{
+    padding: 20px;
+}
+.gwc .gwimg{
+    width: 77px;
+    height: 77px;
+    border: 1px solid #ddd;
+    margin-right: 15px;
+    position: relative;
+}
+.gwc .gwimg img{
+    width: 77px;
+}
+.gwc .gwimg span{
+    background: rgba(210,0,0,0.4);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0;
+    color: white;
+    font-size: 10px;
+}
+.gwc .gwname{
+   width: 240px;
+   line-height: 16px;
+}
+.gwc .gwname .name-1 p a{
+    margin-top: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666;
+}
+.gwc .gwname .name-1 p span{
+    color: #adadad;
+    font-size: 12px;
+}
+.gwc  .gwprice,
+.gwc .jisuan,
+.gwc  .zui{
+    font-size: 12px;
+   
+    width: 115px;
+    text-align: center;
+    margin-top: 3px;
+  
+}
+.gwc  .gwprice .oldd{
+    margin-top: 10px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.gwc .jisuan .jj,
+.gwc .jisuan .jf
+{
+    width: 22px;
+    height: 22px;
+    display: inline-block; 
+    background-color: white;
+    border: 1px solid #adadad;
+}
+.gwc .jisuan .ing{
+    width: 22px;
+    height: 22px;
+    display: inline-block; 
+    background-color: white;
+    /* border: 1px solid #adadad; */
+}
+.gwc .jisuan .xiangou{
+    padding-top: 8px;
+    line-height: 1.5;
+    width: 100%;
+    display: block;
+    color: #f450a2;
+    text-align: center;
+}
+.gwc  .zui{
+    color: #f450a2
+}
+.gwc .shan{
+    width: 48px;
+    margin-left: 30px;
+    text-align: center;
+  
+}
+.gwc .de a{
+    color: #666;
+    font-size: 12px
+}
+/* --------------------jiesuan ------------*/
+.jiesuan{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-right: none;
+    height: 58px;
+    margin: 50px 0 0 15px;
+    position: relative;
+}
+
+.jiesuan .funcs{
+    margin-left: 20px;
+    line-height: 58px;
+  
+}
+.jiesuan .funcs .checkbox label{
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+.jiesuan .funcs a{
+    padding-left: 5px;
+    color: #666;
+    font-size: 12px;
+}
+ .funcs .carr{
+    margin-left: 150px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 700;
+ }
+
+ .funcs .carr label{
+     /* display: inline-block; */
+     font-size: 16px;
+     padding: 0 5px;
+     text-align: center;
+     color: #f450a2;
+ }
+ .funcs .mrr{
+    margin-left: 0;
+ }
+ .jiesuan .funcs .mon{
+     float: right;
+     text-align: center;
+     color: #fff;
+     background-color: #fa4b9b;
+     border: 1px solid #fa4b9b;
+     line-height: 56px;
+     padding: 0 19px;
+     font-size:20px;
+ }
+.bor{
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-top: none;
+    margin-bottom: 20px;
+}
+
+
+
+.cl::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}

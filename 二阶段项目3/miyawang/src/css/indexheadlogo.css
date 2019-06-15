@@ -1,0 +1,196 @@
+/* -----------------------------header-item ------------------*/
+#box .header-item {
+    height: 133px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+#box .header-item .content {
+    position: relative;
+}
+
+#box .header-item .content .header-item-list {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 36px 0 36px 0;
+}
+
+#box .header-item .fl {
+    width: 128px;
+    height: 100%;
+    line-height: 73px;
+    display: inline-block;
+}
+
+#box .header-item .fr {
+    width: 646px;
+    height: 61px;
+    line-height: 61px;
+    display: inline-block;
+    position: relative;
+}
+
+#box .header-item img {
+    width: 128px;
+    height: 73px;
+    /* line-height: 133px; */
+}
+
+#box .header-item .fr .search .search-text {
+    width: 384px;
+    height: 30px;
+    border: 3px solid #fa4a98;
+}
+
+#box .header-item .fr .search .searchButton {
+    width: 100px;
+    height: 36px;
+    background-color: #fa4a98;
+}
+
+#box .header-item .fr .shopcar {
+    width: 100px;
+    height: 36px;
+    border: 1px solid #f4f4f4;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    top: 14px;
+    right: 0px;
+}
+/* ------------购物车---------- */
+.shopcar .car-item{
+    font-size: 12px;
+    color: #666;
+}
+.shopcar .cart-more{
+    position: absolute;
+    z-index: 4;
+    width: 270px;
+    top: 38px;
+    right: 0;
+    border: 1px solid #fa4b9b;
+    background-color: white;
+    display: none;
+    }
+    .shopcar .cart-more .empty{
+    padding: 2px;
+    width: 270px;
+    text-align: center;
+    font-size: 12px;
+    /* display: none; */
+    }
+    .shopcar  .cart-more h5{
+        padding: 0 9px;
+        border-bottom: 1px solid #f2f2f2;
+        font-size: 12px;
+        font-weight: 400;
+        height: 30px;
+        line-height: 30px;
+        text-align: left;
+    }
+    #box .shopcar  .cart-more dl{
+        /* background-color: pink; */
+        padding: 8px 11px;
+        /* width: 270px; */
+        font-size: 12px;
+        overflow: hidden;
+    }
+     .cart-more dl a{
+        display: block;
+    }
+    #box .cart-more dl img{
+        width: 58px;
+        height: 58px;
+      /* width: 100%; */
+    }
+    .shopcar  .cart-more .clear::after{
+        content:"";
+        display: block;
+        height: 0;
+        clear: both;
+        overflow: hidden;
+        visibility: hidden;
+}
+    .shopcar  .cart-more dl dt{
+        margin-right: 12px;
+        float: left;
+        width: 58px;
+        height: 58px;
+        border: 1px solid #ddd;
+        overflow: hidden;
+    }
+    .shopcar  .cart-more dl dd{
+        overflow: hidden;
+    }
+    .shopcar  .cart-more dl dd .cardes{
+        margin: 2px 0;
+        height: 40px;
+        /* overflow: hidden; */
+    }
+    .shopcar  .cart-more dl dd .cardes span{
+        /* display: inline-block; */
+        float: right;
+        height: 20px;
+        line-height: 20px;
+        /* margin-right: 20px; */
+        color: #fa4a98;
+    }
+    #box .shopcar  .cart-more dl dd a{
+        font-size: 12px;
+        display: block;
+        width: 120px;
+        color:#666;
+        line-height: 20px;
+        height: 40px;
+        overflow: hidden;
+    }
+    .shopcar  .cart-more dl dd .carnum{
+        text-align:left;
+        height: 18px;
+        line-height: 18px;
+    }
+    .shopcar  .cart-more .to{
+        padding: 8px;
+        height: 32px;
+        text-align: right;
+        background-color: #f5f5f5;
+    }
+    .shopcar .cart-more .to a{
+        display: inline-block;
+        padding: 0 10px;
+        height: 32px;
+        line-height: 32px;
+        background-color: #fa4b9b;
+        color: #fff;
+    }
+    
+    
+    
+    /* --------------------------- */
+#box .header-item .fr i {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #fa4a98;
+    position: absolute;
+    right: 100px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #f4f4f4;
+}
+
+#box .header-item .fr .msg {
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    padding: 0 12px;
+}
+
+#box .header-item .fr .msg a {
+    color: #666;
+}

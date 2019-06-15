@@ -1,0 +1,434 @@
+/* ----------------------顶部 ---------*/
+#box .header {
+    width: 100%;
+    height: 30px;
+    background-color: #f2f2f2;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+#box .header .fl i {
+    color: #ff3893;
+}
+
+#box .header .fl a {
+    color: #6b6066;
+    padding: 0 5px;
+}
+
+.fr .welcome {
+    margin-right: 16px;
+}
+
+.header .fr {
+    color: #6b6066;
+}
+
+.header .fr a {
+    margin: 0 10px;
+    color: #6b6066;
+}
+
+/* -----------------------------header-item ------------------*/
+#box .header-item {
+    height: 133px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+#box .header-item .content {
+    position: relative;
+}
+
+#box .header-item .content .header-item-list {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 36px 0 36px 0;
+}
+
+#box .header-item .fl {
+    width: 128px;
+    height: 100%;
+    line-height: 73px;
+    display: inline-block;
+}
+
+#box .header-item .fr {
+    width: 646px;
+    height: 61px;
+    line-height: 61px;
+    display: inline-block;
+    position: relative;
+}
+
+#box .header-item img {
+    width: 128px;
+    height: 73px;
+    /* line-height: 133px; */
+}
+
+#box .header-item .fr .search .search-text {
+    width: 384px;
+    height: 30px;
+    border: 3px solid #fa4a98;
+}
+
+#box .header-item .fr .search .searchButton {
+    width: 100px;
+    height: 36px;
+    background-color: #fa4a98;
+}
+
+#box .header-item .fr .shopcar {
+    width: 100px;
+    height: 36px;
+    font-size: 13px;
+    color: #666;
+    border: 1px solid #f4f4f4;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    top: 14px;
+    right: 0px;
+}
+
+.shopcar .cart-more{
+    position: absolute;
+    top: 38px;
+    right: 0;
+    border: 1px solid #fa4b9b;
+    background-color: white;
+    }
+    .shopcar .cart-more .empty{
+    padding: 2px;
+    width: 270px;
+    text-align: center;
+    font-size: 12px;
+    /* display: none; */
+    }
+#box .header-item .fr i {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #fa4a98;
+    position: absolute;
+    right: 100px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #f4f4f4;
+}
+
+#box .header-item .fr .msg {
+    height: 15px;
+    line-height: 15px;
+    padding: 0 12px;
+   
+}
+
+#box .header-item .fr .msg a {
+    font-size: 10px;
+    color: #ec0971;
+}
+
+/* ---------------------------nav --------*/
+#box .nav {
+    background-color: #ff3893;
+    width: 100%;
+    height: 46px;
+}
+
+#box .nav .fl {
+    height: 46px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#box .nav .fl li {
+    float: left;
+    height: 100%;
+    /* background-color: yellow; */
+    font-size: 16px;
+    line-height: 46px;
+}
+
+#box .nav .fl img {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -1px;
+    transition: 0.3s;
+    transform: rotate(90deg);
+}
+
+.current {
+    display: block;
+}
+
+#box .nav .fl .tr:hover img {
+    transform: rotate(-90deg);
+}
+
+#box .nav .fl .li-list a:hover {
+    background-color: #ff3893;
+    color: white;
+}
+
+#box .nav .fl li:nth-child(4) {
+    position: relative;
+}
+
+#box .nav .fl .li-list {
+    width: 100%;
+    position: absolute;
+    border: 1px solid black;
+    border-top: none;
+    background-color: white;
+    z-index: 1;
+    top: 46px;
+    left: 0;
+    display: none;
+}
+
+#box .nav .fl .li-list a {
+    padding: 0 8px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+
+#box .nav .fl .li-list a span {
+    padding: 0 22px;
+    display: block;
+    margin-top: -1px;
+    border-top: 1px dashed red;
+}
+
+#box .nav .fl li:nth-child(1) {
+    margin-left: 230px;
+    background-color: #ec0971;
+}
+
+#box .nav .fl li:hover {
+    background-color: #ec0971;
+}
+
+#box .nav .fl li a {
+    height: 100%;
+    color: white;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+/* #box .menus{
+    position: relative;
+} */
+/* -----------------------------menus----------------------- */
+#box .menus .cai  {
+    width: 230px;
+    height: 645px;
+    /* background-color: red; */
+    border-right: none;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    top: 160px;
+    left:125px;
+    background-color: white;
+
+}
+
+#box  .menus .title {
+    background-color: #fc3b95;
+    height: 52px;
+    line-height: 52px;
+    font-size: 17px;
+    color: white;
+}
+
+#box  .menus .title h3 {
+    margin-left: 21px;
+}
+
+#box  .menus dl {
+    /* border-left: 1px solid white;
+    border-right: 1px solid blue; */
+    width: 230px;
+    height: 74px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    position: relative;
+}
+
+#box  .menus dl dt {
+    /* width: 210px; */
+    margin-left: 21px;
+    width: 80%;
+    height: 74px;
+    border-top: 1px dashed #666;
+    box-sizing: border-box;
+    position: relative;
+    top: -1px;
+}
+
+/* #box .nav .menus dl dt:nth-last-child(1){  
+   border-bottom: none;
+} */
+#box  .menus dl dt strong a {
+    display: inline-block;
+    font-size: 13px;
+    height: 13px;
+    line-height: 13px;
+    margin-top: 9px;
+    margin-bottom: 6px;
+    color: #fc3b95;
+}
+
+#box .menus dl p {
+    width: 173px;
+    overflow: hidden;
+}
+
+#box .menus dl p a {
+    margin-right: 6px;
+
+    font-size: 12px;
+    color: #616669;
+}
+
+/*----------------------------- menus dl dd ---------------*/
+
+.toggle {
+    display: none;
+    border: 1px solid #666;
+    border-left: none;
+}
+
+.er:hover {
+    border: 1px solid #666;
+    border-right: none;
+    border-left: 2px solid red;
+    box-sizing: border-box;
+}
+
+#box  .menus dl dt:hover {
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+#box  .menus dl .one,
+#box  .menus dl .two,
+#box  .menus dl .three {
+    width: 570px;
+    position: absolute;
+    top: 0;
+    left: 228px;
+    background-color: white;
+    display: none;
+}
+
+#box  .menus dl .four {
+    width: 570px;
+    position: absolute;
+    bottom: -298px;
+    left: 228px;
+    background-color: white;
+    display: none;
+}
+
+#box  .menus dl .five {
+    width: 570px;
+    position: absolute;
+    bottom: -224px;
+    left: 228px;
+    background-color: white;
+    display: none;
+}
+
+#box  .menus dl .six {
+    width: 570px;
+    position: absolute;
+    bottom: -150px;
+    left: 228px;
+    background-color: white;
+    display: none;
+}
+
+#box  .menus dl .seven {
+    width: 570px;
+    position: absolute;
+    bottom: -76px;
+    left: 228px;
+    background-color: white;
+    display: none;
+}
+
+#box  .menus dl .eight {
+    width: 570px;
+    position: absolute;
+    bottom: -1px;
+    left: 228px;
+    background-color: white;
+    display: none;
+}
+
+/* #box .nav .menus dl .public{
+    border: 1px solid white;
+} */
+#box .menus dl .public .bi {
+    margin: 15px;
+    height: 400px;
+    /* background-color: pink; */
+    position: relative;
+}
+
+/* #box .nav .menus dl dd h3{
+   border-bottom: 1px solid #fdfdfd;
+} */
+#box  .menus dl .public .yinul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    /* background-color: yellow; */
+}
+
+#box .menus dl .public .colum {
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 108px;
+    /* background-color: blue; */
+}
+
+#box  .menus dl .public .yinimg {
+    float: right;
+    width: 244px;
+    display: block;
+}
+
+#box  .menus dl .public .yinul a,
+#box  .menus dl .public .colum a,
+    {
+    margin-right: 8px;
+    line-height: 2;
+    font-size: 12px;
+    float: left;
+}
+
+#box .menus dl .public a .table {
+    float: left;
+    width: 80px;
+    height: 80px;
+    /* display: block; */
+}
+
+#box  .menus dl .public a .table img {
+    width: 80px;
+    height: 80px;
+}

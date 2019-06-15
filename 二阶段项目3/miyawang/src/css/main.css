@@ -1,0 +1,214 @@
+
+
+/* -----------foryou----------------- */
+#box .foryou {
+    width: 100%;
+}
+
+#box .foryou h3,
+#box .topitem h3 {
+    font-size: 25px;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 22px;
+
+}
+
+#box .foryou h3 span,
+#box .topitem h3 span {
+    margin-left: 20px;
+    font-size: 18px;
+    color: #999;
+}
+
+#box .foryou .foryoulist {
+    height: 688px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+#box .foryou .foryoulist .dess {
+    float: left;
+    height: 344px;
+    border: 1px solid #efefef;
+    box-sizing: border-box;
+    flex: 1;
+    width: 20%;
+    min-width: 20%;
+    max-width: 20%;
+}
+#box .foryou .foryoulist .dess:hover .bott p:nth-child(1)  {
+   
+color: red;
+}
+
+#box .foryou .foryoulist .dess div img {
+    width: 100%;
+    /* height: 242px; */
+}
+#box .foryou .foryoulist .dess:hover   div img ,
+#box .topitem .list1 .list1-1 .list1-img img:hover{
+    opacity: 0.8;
+    }
+#box .foryou .foryoulist .dess .bott {
+    position: relative;
+    padding: 15px 15px 0px 15px;
+}
+
+#box .foryou .foryoulist .dess .bott p {
+    font-size: 12px;
+}
+
+#box .foryou .foryoulist .dess .bott p:nth-child(1) {
+    color: black;
+    font-weight: 700;
+}
+
+#box .foryou .foryoulist .dess .bott p:nth-child(2) {
+    color: #999;
+}
+
+#box .foryou .foryoulist .dess .bott .bott2 {
+    margin-top: 19px;
+    margin-bottom: 15px;
+}
+
+#box .foryou .foryoulist .dess .bott .bott2 .new {
+    display: block;
+    color: red;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+#box .foryou .foryoulist .dess .bott .bott2 .new em {
+    font-size: 16px;
+}
+
+#box .foryou .foryoulist .dess .bott .bott2 .old {
+    display: block;
+    color: #999;
+    font-size: 12px;
+}
+
+#box .foryou .foryoulist .dess .bott .bott2 .old em {
+    text-decoration: line-through;
+}
+
+#box .foryou .foryoulist .dess .bott .buy {
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 14px;
+    background-color: #ff4947;
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    right: 15px;
+    bottom: 17px;
+    padding: 0 15px;
+}
+#box .foryou .foryoulist .dess .bott .buy:hover{
+    background-color: red;
+}
+#box .foryou .foryoulist .dess .bott .go {
+    font-size: 12px;
+    display: block;
+    color: #999;
+    position: absolute;
+    right: 15px;
+    bottom: -2px;
+}
+
+/*----------------------- topitem ------------------*/
+/* #box .topitem-list{
+      background-color: white;
+  } */
+/* #box .topitem .topitem-list {
+    background-color: #ffffff;
+  } */
+#box .topitem .list1 {
+    padding-left: 20px;
+    border: 1px solid #efefef;
+    margin-bottom: 17px;
+    background-color: #ffffff;
+}
+#box .topitem .list1 a{
+    color: #666;
+}
+#box .topitem .list1 .tit {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#box .topitem .list1 span img {
+    display: inline-block;
+    width: 76px;
+    height: 76px;
+    border: 2px solid #f4f4f4;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+#box .topitem .list1 .list1-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+
+#box .topitem .list1 .list1-1 .list1-img {
+    position: relative;
+}
+
+#box .topitem .list1 .list1-1 .list1-img .dess {
+    position: absolute;
+    border: 1px solid #f72283;
+    border-radius: 28px;
+    color: #f72283;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    overflow: hidden;
+    /* max-width:80px ; */
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    text-align: center;
+    background-color: white;
+    opacity: 0.9;
+}
+
+#box .topitem .list1 .list1-1 a {
+    display: block;
+    margin-right: 18px;
+}
+
+#box .topitem .list1 .list1-1 a img {
+    display: block;
+    width: 100%;
+}
+
+#box .topitem .list1 .list1-1 .list1-des p {
+    height: 48px;
+    line-height: 24px;
+    font-size: 14px;
+    overflow: hidden;
+    color: black;
+}
+
+#box .topitem .list1 .list1-1 .list1-des .new {
+    color: #fa4b9b;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+#box .topitem .list1 .list1-1 .list1-des .old {
+    color: #999;
+    padding: 0;
+    text-decoration: line-through;
+}

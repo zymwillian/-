@@ -1,0 +1,273 @@
+
+#box .shoplist{
+    /* height: 3600px; */
+   
+}
+.content{
+    /* background: pink; */
+}
+#box .shoplist .content .listhead{
+    margin: 20px 0 7px 2px;
+    line-height: 38px;
+    font-size: 12px;
+    color: #666;
+}
+#box .shoplist .shopdes{
+   background-color: #fff;
+}
+#box .shoplist .shopdes .shopdes1{
+    /* width: 918px; */
+    /* height: 24px; */
+    font-size: 12px;
+    line-height: 24px;
+    padding-right: 60px;
+    border-bottom: 1px dashed #ececec;
+    padding: 8px 0;
+    overflow: hidden;
+  
+}
+#box .shoplist .shopdes .end{
+    width: 918px;
+    position: relative;
+}
+#box .shoplist .shopdes{
+    overflow: hidden;
+}
+#box .shoplist .shopdes .key{
+   width: 73px;
+   padding-right: 14px;
+   color: #999;
+   text-align: right;
+}
+#box .shoplist .shopdes .keydes a{
+    margin-right: 5px;
+    padding: 0 20px 0 10px;
+    color: #222;
+}
+/* #box .shoplist .shopdes .keydes{
+    position: relative;
+} */
+#box .shoplist .shopdes .keydes .small{
+   position: absolute;
+   width: 50px;
+   height: 24px;
+   line-height: 24px;
+   right: 0;
+   color: #666;
+}
+/* ---------------shopitem------------- */
+#box .shoplist .shopitem {
+    padding-top: 10px;
+}
+#box .shoplist .shopitem .shoptitle{
+        height: 46px;
+        border:1px solid #ededed;
+      
+        line-height: 33px;
+        font-size: 14px;
+        margin-bottom: 10px;
+        background-color: #fff;
+}
+#box .shoplist .shopitem .cou{
+   line-height: 46px;
+   padding: 0 19px 0 0;
+}
+#box .shoplist .shopitem .cou em{
+  color: #f450a2;
+ }
+ #box .shoplist .shopitem .shoptitle .fen{
+     display: inline;
+ }
+ #box .shoplist .shopitem .shoptitle .fen span{
+     display: inline-block;
+     height: 46px;
+     line-height: 46px;
+     font-size: 14px;
+     border-right: 1px solid #ededed;
+     float: left;
+ }
+ 
+
+ #box .shoplist .shopitem .shoptitle .fen span .curr{
+    color: #f450a2;
+}
+#box .shoplist .shopitem .shoptitle .fen span a{
+    color: #666;
+   padding: 5px 25px 7px 25px;
+}
+#box .shoplist .shopitem .shoptitle .inner{
+    padding: 0 10px;
+    height: 39px;
+}
+#box .shoplist .shopitem .shoptitle .fen ul li{
+    float: left;
+    margin-right: 5px;
+}
+#box .shoplist .shopitem .shoptitle .fen .mininput{
+     width: 42px;
+     height: 21px;
+     padding: 0 4px;
+     border:1px solid #B1B1B1;
+     font-size: 12px;
+}
+#box .shoplist .shopitem .shoptitle .fen ul .dis{
+    /* border: 1px solid black; */
+    height: 46px;
+    padding-top: 12px;
+    box-sizing: border-box;
+}
+#box .shoplist .shopitem .shoptitle .fen ul .dis .btn{
+ line-height: 20px;
+ background-color: #f450a2;
+ color: white;
+ height: 23px;
+ width: 50px;
+ margin-left: 5px;
+ border-radius: 3px;
+ display: none;
+}
+/* #box .shoplist .shopitem .shoptitle .fen .inner .dis:hover .dis .btn{
+    height: 23px;
+    line-height: 20px;
+    display: block;
+} */
+ #box .shoplist .shopitem .shoptitle .fen label{
+     height: 46px;
+     font-size: 14px;
+     margin-left: 20px;
+     line-height: 46px;
+ }
+ #box .shoplist .shopitem .shoptitle .fen label input{
+     margin-right: 8px;
+ }
+ /* -----------------------shops --------------*/
+ #box .shops{
+     /* background-color: yellow; */
+     /* height: 800px; */
+     /* min-height: 762px; */
+    display: flex;
+    flex-wrap: wrap;
+       justify-content: space-between;
+ }
+ #box .shops .pub{
+     width: 267px;
+     height: 367px;
+     background-color: #fff;
+     margin-bottom: 14px;
+     /* margin-right: 10px; */
+     /* margin: 0 10px 14px 0; */
+ }
+ /* #box .shops .mr{
+  margin-right: 0;
+} */
+#box .shops img{
+    height: 267px;
+    width: 100%;
+}
+#box .shops .ge{
+    padding: 6px 10px 10px 10px;
+    background-color: #fff;
+}
+#box .shops .ge .fl{
+    color: #f450a2;
+}
+#box .shops .ge .fl b{
+    line-height: 20px;
+    font-size: 20px;
+    color: #f450a2;
+    margin-right: 5px;
+    font-weight: 700;
+}
+#box .shops .ge .fl em{
+    font-size: 10px;
+    border: 1px solid #D9849A;
+    color: #D9849A;
+    border-radius: 2px;
+    height: 14px;
+    line-height: 14px;
+   
+}
+#box .shops .ge .fr{
+    display: inline-block;
+    line-height: 20px;
+    font-size: 12px;
+    color: #888;
+    text-decoration: line-through;
+}
+#box .shops .ge p{
+    height: 22px;
+    overflow: hidden;
+    padding: 8px 0 0;
+    font-size: 14px;
+    line-height: 20px; 
+}
+#box .shops .ge p a{
+    height: 22px;
+    color: #666;
+}
+#box .shops .ge .ee {
+    color: #f450a2;
+    font-size: 12px;
+    margin-top: 5px;
+    
+}
+
+#box .shops .ge .ee span {
+    color: white;
+    background-color: #f450a2;
+    padding: 0 2px 2px 2px;
+    margin-right: 7px;
+    line-height: 20px;
+
+}
+
+/* --------------------en---------- */
+
+#box .en{
+    padding: 30px;
+    text-align: center;
+}
+#box .en a{
+    font-size: 14px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    border: 1px solid #666;
+    background-color: white;
+    padding: 0 7px;
+   margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .fix::after{
+     content: "";
+     height: 0;
+     display: block;
+     visibility: hidden;
+     overflow: hidden;
+     clear: both;
+ }

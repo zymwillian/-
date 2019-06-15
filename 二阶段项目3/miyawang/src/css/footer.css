@@ -1,0 +1,157 @@
+/* -------------------footer------------------ */
+
+#box .footer {
+    width: 100%;
+    border-top: 1px solid #f2f2f0;
+    border-bottom: 1px solid #f2f2f0;
+    background-color: #ffffff;
+}
+
+#box .footer .six {
+    width: 100%;
+    padding: 23px 0 17px 0;
+    border-bottom: 1px solid #f2f2f0;
+}
+
+#box .footer .six a {
+    display: inline-block;
+    text-align: center;
+    width: 16%;
+    font-size: 13px;
+    color: #999;
+}
+
+#box .footer .six a i {
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    /* width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%; */
+    margin: 0 auto;
+    color: #fe4d9b;
+}
+
+#box .footer .six a b {
+    display: block;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*------------------------- footer-msg ------------*/
+#box .footer .footer-msg .fix::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#box .footer .footer-msg {
+    margin-top: 20px;
+}
+
+#box .footer .footer-msg .fl {
+    height: 100%;
+    margin-left: 96px;
+    /* font-size: 12px */
+}
+
+#box .footer .footer-msg .fl ul {
+    float: left;
+    font-size: 12px;
+    width: 130px;
+    /* margin-right: 13px; */
+}
+
+#box .footer .footer-msg .fl ul .big,
+#box .footer .footer-msg .fr ul .big {
+    font-size: 13px;
+    height: 38px;
+    line-height: 38px;
+    font-weight: 700;
+    width: 140px;
+}
+
+
+#box .footer .footer-msg .fl .tel {
+    width: 200px;
+}
+
+#box .footer .footer-msg .fl ul li {
+    font-size: 12px;
+    height: 27px;
+    line-height: 27px;
+}
+
+
+#box .footer .footer-msg .fl ul a {
+    color: #999;
+}
+#box .footer .footer-msg .fl ul a:hover,
+#box .footerlist .content  a:hover
+{
+    color: #fe4d9b;
+}
+
+#box .footer .footer-msg .fr {
+    width: 186px;
+    height: 168px;
+    border-left: 1px solid #f2f2f0;
+    margin-right: 60px;
+
+}
+
+#box .footer .footer-msg .fr li {
+    padding-left: 18px;
+}
+
+#box .footer .footer-msg .fr li img {
+    float: left;
+    margin-right: 8px;
+}
+
+/* ----------------------footerlist-------------------- */
+#box .footerlist {
+    background-color: #ffffff;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: #979797;
+}
+
+#box .footerlist p {
+    color: #979797;
+    font-size: 12px;
+    text-align: center;
+    padding: 18px 0;
+}
+
+#box .footerlist p a {
+    color: #666;
+    padding: 0 14px;
+}
+
+#box .footerlist a {
+    color: #666;
+}
+
+#box .footerlist img {
+    display: inline-block;
+    height: 33px;
+}
+
+
+.clfd::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}

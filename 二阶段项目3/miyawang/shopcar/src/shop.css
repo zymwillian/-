@@ -1,0 +1,77 @@
+#box{
+    background-color: #f2f2f2;
+
+}
+.main1{
+    border-top: 1px solid #e5e5e5;
+}
+.main1 .content .shop{
+    width: 1000px;
+    height:138px ;
+    margin-left: 45px;
+}
+.main1 .content .shopsp{
+    width: 1000px;
+    height:240px ;
+  
+    margin-left: 45px;
+}
+.main1 .content .shop .log{
+    width: 128px;
+    height:73px ;
+}
+.main1 .content .shop .msg{
+    width: 450px;
+    height:73px ;
+}
+.main1 .content .shop .msg ul{
+    height: 43px;
+    margin-top: 30px;
+    background-color: white;
+    background-image: url(./img/cart_step_ff.png);
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+}
+.main1 .content .shop .msg ul li{
+    float: left;
+    width:150px;
+    font-size: 12px;
+    text-align: center; 
+    height: 42px;
+    line-height: 42px;
+    color: #666;
+}
+.main1 .content .shop .msg ul li:nth-child(1){
+    color: white;
+}
+.main1 .content .shopsp{
+    background-color: #ffffff;
+    position: relative;
+}
+.main1 .content .shopsp img{
+    display: block;
+    width: 86px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+    left: 118px;
+}
+.main1 .content .shopsp .text{
+    padding: 80px 50px;
+    padding-left: 230px;
+}
+.main1 .content .shopsp .b{
+   font-size: 30px;
+   color: #ccc;
+   padding-bottom: 20px;
+}
+.main1 .content .shopsp p:nth-child(2){
+    font-size: 12px;
+    color: #666;
+ }
+ .main1 .content .shopsp p a{
+    font-size: 12px;
+    color: #f450a2;
+    font-weight: 700;
+ }

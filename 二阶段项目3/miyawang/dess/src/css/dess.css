@@ -1,0 +1,252 @@
+
+#box{
+    background-color: white;
+}
+#box .dessmain{
+    /* height: 800px; */
+    /* position: relative;
+    z-index:2; */
+}
+#box .dessmain .content .top{
+    height: 50px;
+    line-height: 50px;
+    color: #666;
+    font-size: 12px;
+    padding: 1px;
+}
+#box .dessmain .content .top a{
+    color: #666;
+    font-size: 12px;
+}
+#box .dessmain .content .midd{
+  /* height: 800px; */
+    padding: 20px;
+    /* background-color: yellow; */
+}
+/*  ---------------left -------------------*/
+#box .dessmain .content .midd .fl .sta{
+    height: 402px;
+    border:1px solid #f7f7f7;
+}
+#box .dessmain .content .midd .fl .sta img{
+    width: 400px;
+    height: 400px;
+}
+#box .dessmain .content .midd .fl .small{
+    padding-top: 8px;
+    height: 100px; 
+}
+#box .dessmain .content .midd .fl .bbb{
+    border:1px solid red;
+    
+}
+#box .dessmain .content .midd .fl img{
+    float: left;
+    border: 1px solid #f4f4f4;
+    /* padding: 2px; */
+    margin-right: 8px;
+   width: 68px;
+   height: 68px;
+}
+
+/*  ---------------right-------------------*/
+#box .dessmain .content .midd .fr{
+    width: 600px;
+}
+#box .dessmain .content .midd .fr .msg .tit{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#box .dessmain .content .midd .fr .msg .tit a{
+        color: #666;
+}
+#box .dessmain .content .midd .fr .desmsg{
+    font-size: 14px;
+    /* line-height: 20px; */
+}
+#box .dessmain .content .midd .fr .price{
+    padding: 10px 15px
+}
+#box .dessmain .content .midd .fr .te{
+    font-size: 16px;
+    color: #666;
+    margin-right: 30px;
+}
+#box .dessmain .content .midd .fr .new{
+    font-size: 22px;
+    color:#f43499;
+}
+#box .dessmain .content .midd .fr .old{
+    font-size: 12px;
+    color:#666;
+    text-decoration: line-through;
+    padding: 0 10px;
+}
+#box .dessmain .content .midd .price2{
+    margin-top: 10px;
+}
+#box .dessmain .content .midd .price2 i{
+   display: inline-block;
+   font-size: 12px;
+   height: 21px;
+   line-height: 21px;
+   padding: 0 5px;
+   text-align: center;
+   color: white;
+   margin-right: 8px;
+   background-color: #fca43b;
+}
+#box .dessmain .content .midd .price2 .xian a{
+   color: #f43499;
+   font-size: 12px;
+ }
+ #box .dessmain .content .midd .quan{
+    margin-top: 10px;
+     /* margin-right: 30px; */
+     position: relative;
+     left: 70px;
+ }
+ #box .dessmain .content .midd .quan i{
+    display: inline-block;
+    font-size: 12px;
+    height: 22ipx;
+    line-height: 22px;
+    padding: 0 5px;
+    text-align: center;
+    color: white;
+    margin-right: 8px;
+    background-color: #f43499;
+ }
+
+ #box .dessmain .content .midd .quan a{
+    display: inline-block;
+    font-size: 12px;
+    width: 100px;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px; 
+    color: #f43499;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-image: url(../img/beijin.png);
+    background-position: -100px 0;
+    background-repeat: no-repeat;
+ }
+ #box .dessmain .content .midd .change{
+    padding: 10px 15px;
+ }
+ #box .dessmain .content .midd .change .te{
+     display: inline-block;
+     width: 70px;
+     /* text-align: left; */
+ }
+ #box .dessmain .content .midd .change .change2{
+     margin-top: 10px;
+ }
+ .list{
+     display: inline-block;
+     text-align: center;
+     padding: 8px 10px;
+     border: 1px solid #b5b5b5;
+     font-size: 12px;
+     color: #333;
+ }
+ .red{
+     border: 1px solid #f43499;
+     box-sizing: border-box;
+ }
+ #box .dessmain .content .midd  .change3{
+     margin-top: 30px;
+    height: 30px;
+}
+.change3 div{
+    display: inline-block;
+    border: 1px solid #b5b5b5;
+}
+#box .dessmain .content .midd .change .change3 .ji,
+#box .dessmain .content .midd .change .change3 .ja
+{
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    text-align: center;
+    background-color: white;
+}
+#box .dessmain .content .midd .change .change3 em{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    border-left: 1px solid #b5b5b5;
+    border-right: 1px solid #b5b5b5;
+    box-sizing: border-box;
+}
+#box .dessmain .content .midd .b{
+    display: inline-block;
+    font-size: 18px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    background-color: #f43499;
+    border-radius: 5px;
+    padding: 0 64px;
+    margin-right: 10px;
+}
+#box .dessmain .content .midd .sc{
+    display: inline-block;
+    border: 1px solid #b5b5b5;
+    height: 55px;
+    color: #666;
+    font-size: 12px;
+    line-height: 76px;
+    text-align: center;
+    padding: 0 35px 0 35px;
+}
+#box .dessmain .content .midd .change3 i{
+    position: relative;
+}
+#box .dessmain .content .midd .change3 i img{
+    display: block;
+  width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 8px;
+}
+#box .dessmain .content .midd .num{
+    padding: 30px 0 10px 0;
+    font-size: 12px;
+    color: #333;
+}
+#box .dessmain .content .midd .ee li{
+        margin-right: 15px;
+        font-size: 12px;
+        color: #666;
+        position: relative;
+}
+#box .dessmain .content .midd .ee span{
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    left: 0;
+    top: 40px;
+    width: 270px;
+    text-align: left;
+    background-color: white;
+}
+.xian{
+    display: block;
+}
+#box .dessfoot{
+    margin-top: 40px;
+}
+/* .clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden
+} */

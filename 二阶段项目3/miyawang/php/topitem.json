@@ -1,0 +1,131 @@
+
+
+{
+    "nav1": [{
+        "src": "./src/img/list1.png",
+        "des": "兰芝 LANEIGE"
+    },{
+        "src": "./src/img/list1.png",
+        "des": "兰芝 LANEIGE11111"
+    },
+    {
+        "src": "./src/img/list1.png",
+        "des": "兰芝 2222"
+    }
+   ],
+    "nav2":[[{
+       
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 1,
+        "old":1
+    },
+
+    {
+     
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 2,
+        "old":2
+    }, {
+       
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 3,
+        "old": 3
+    }, {
+        
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 4,
+        "old": 4
+    }, {
+     
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 5,
+        "old": 5
+    }],
+    [{
+       
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 6,
+        "old":6
+    },
+
+    {
+     
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 7,
+        "old": 7
+    }, {
+       
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 8,
+        "old": 8
+    }, {
+        
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 9,
+        "old":9
+    }, {
+     
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 10,
+        "old": 10
+    }],
+    [{
+       
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 11,
+        "old":11
+    },
+
+    {
+     
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 12,
+        "old": 12
+    }, {
+       
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 13,
+        "old": 13
+    }, {
+        
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 14,
+        "old":14
+    }, {
+     
+        "src1": "./src/img/list1-1.jpg",
+        "dess": "包邮",
+        "listdes": "春夏季卡通萌趣网眼薄款婴幼儿筒袜子船袜5双，网眼卡通C",
+        "new": 15,
+        "old": 15
+    }]]
+    }
+    

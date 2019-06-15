@@ -1,0 +1,308 @@
+/* ---------------------------nav --------*/
+#box .nav {
+    background-color: #ff3893;
+    width: 100%;
+    height: 46px;
+}
+
+#box .nav .fl {
+    height: 46px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#box .nav .fl li {
+    float: left;
+    height: 100%;
+    /* background-color: yellow; */
+    font-size: 16px;
+    line-height: 46px;
+}
+
+#box .nav .fl img {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: -1px;
+    transition: 0.3s;
+    transform: rotate(90deg);
+}
+
+.current {
+    display: block;
+}
+
+#box .nav .fl .tr:hover img {
+    transform: rotate(-90deg);
+}
+
+#box .nav .fl .li-list a:hover {
+    background-color: #ff3893;
+    color: white;
+}
+
+#box .nav .fl li:nth-child(4) {
+    position: relative;
+}
+
+#box .nav .fl .li-list {
+    width: 100%;
+    position: absolute;
+    border: 1px solid black;
+    border-top: none;
+    background-color: white;
+    z-index: 1;
+    top: 46px;
+    left: 0;
+    display: none;
+}
+
+#box .nav .fl .li-list a {
+    padding: 0 8px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+
+#box .nav .fl .li-list a span {
+    padding: 0 22px;
+    display: block;
+    margin-top: -1px;
+    border-top: 1px dashed red;
+}
+
+#box .nav .fl li:nth-child(1) {
+    margin-left: 230px;
+    background-color: #ec0971;
+}
+
+#box .nav .fl li:hover {
+    background-color: #ec0971;
+}
+
+#box .nav .fl li a {
+    height: 100%;
+    color: white;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+/* #box .menus{
+    position: relative;
+} */
+/* -----------------------------menus----------------------- */
+#box .menus .content{
+    position: relative;
+}
+#box .fi::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+#box .menus .cai  {
+    width: 230px;
+    height: 645px;
+    border-right: none;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    top: -50px;
+    /* left:125px; */
+    background-color: white;
+
+}
+
+#box  .menus .title {
+    background-color: #fc3b95;
+    height: 52px;
+    line-height: 52px;
+    font-size: 17px;
+    color: white;
+}
+
+#box  .menus .title h3 {
+    margin-left: 21px;
+}
+
+#box  .menus dl {
+    /* border-left: 1px solid white;
+    border-right: 1px solid blue; */
+    width: 230px;
+    height: 74px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    position: relative;
+}
+
+#box  .menus dl dt {
+    /* width: 210px; */
+    margin-left: 21px;
+    width: 80%;
+    height: 74px;
+    border-top: 1px dashed #666;
+    box-sizing: border-box;
+    position: relative;
+    top: -1px;
+}
+
+/* #box .nav .menus dl dt:nth-last-child(1){  
+   border-bottom: none;
+} */
+#box  .menus dl dt strong a {
+    display: inline-block;
+    font-size: 13px;
+    height: 13px;
+    line-height: 13px;
+    margin-top: 9px;
+    margin-bottom: 6px;
+    color: #fc3b95;
+}
+
+#box .menus dl p {
+    width: 173px;
+    overflow: hidden;
+}
+
+#box .menus dl p a {
+    margin-right: 6px;
+
+    font-size: 12px;
+    color: #616669;
+}
+
+/*----------------------------- menus dl dd ---------------*/
+
+.toggle {
+    display: none;
+    border: 1px solid #666;
+    border-left: none;
+}
+
+.er:hover {
+    border: 1px solid #666;
+    border-right: none;
+    border-left: 2px solid red;
+    box-sizing: border-box;
+}
+
+#box  .menus dl dt:hover {
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+#box  .menus dl .one,
+#box  .menus dl .two,
+#box  .menus dl .three {
+    width: 570px;
+    position: absolute;
+    top: 0;
+    left: 228px;
+    background-color: white;
+    display: none;
+}
+
+#box  .menus dl .four {
+    width: 570px;
+    position: absolute;
+    bottom: -298px;
+    left: 228px;
+    background-color: white;
+    display: none;
+}
+
+#box  .menus dl .five {
+    width: 570px;
+    position: absolute;
+    bottom: -224px;
+    left: 228px;
+    background-color: white;
+    display: none;
+}
+
+#box  .menus dl .six {
+    width: 570px;
+    position: absolute;
+    bottom: -150px;
+    left: 228px;
+    background-color: white;
+    display: none;
+}
+
+#box  .menus dl .seven {
+    width: 570px;
+    position: absolute;
+    bottom: -76px;
+    left: 228px;
+    background-color: white;
+    display: none;
+}
+
+#box  .menus dl .eight {
+    width: 570px;
+    position: absolute;
+    bottom: -1px;
+    left: 228px;
+    background-color: white;
+    display: none;
+}
+
+/* #box .nav .menus dl .public{
+    border: 1px solid white;
+} */
+#box .menus dl .public .bi {
+    margin: 15px;
+    height: 400px;
+    /* background-color: pink; */
+    position: relative;
+}
+
+/* #box .nav .menus dl dd h3{
+   border-bottom: 1px solid #fdfdfd;
+} */
+#box  .menus dl .public .yinul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    /* background-color: yellow; */
+}
+
+#box .menus dl .public .colum {
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 108px;
+    /* background-color: blue; */
+}
+
+#box  .menus dl .public .yinimg {
+    float: right;
+    width: 244px;
+    display: block;
+}
+
+#box  .menus dl .public .yinul a,
+#box  .menus dl .public .colum a,
+    {
+    margin-right: 8px;
+    line-height: 2;
+    font-size: 12px;
+    float: left;
+}
+
+#box .menus dl .public a .table {
+    float: left;
+    width: 80px;
+    height: 80px;
+    /* display: block; */
+}
+
+#box  .menus dl .public a .table img {
+    width: 80px;
+    height: 80px;
+}
